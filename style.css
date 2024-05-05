@@ -1,0 +1,391 @@
+@charset "UTF-8";
+
+@import url('https://fonts.cdnfonts.com/css/open-sauce-one');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+
+header {
+    display: flex;
+    flex-flow: column wrap;
+    background-color: #ECF8E5;
+    color: #347571;
+}
+
+#header {
+    align-self: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#header .menulogo {
+    display: flex;  
+    margin-bottom: 20px;  
+    width: 200px;
+}
+
+#header .menulogo img {
+    width: 50px;
+    height: 50px;
+}
+
+#header .menulogo p {
+    font-weight: 700;
+    font-variant: small-caps;
+    letter-spacing: 1.5px;
+    width: 10px;
+    align-self: center;
+}
+
+#header .conteudoheader {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+#header .conteudoheader .textoheader {
+    align-self: center;
+    width: 450px;
+}
+
+#header .conteudoheader .textoheader p {
+    font-family: 'Open Sauce One' Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 3.6em;
+    width: 450px;
+    margin-bottom: 40px;
+}
+
+#header .conteudoheader .textoheader a {
+    background-color: #5EC57E;
+    color: white;
+    text-decoration: none;
+    border-radius: 40px;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 10px 40px;
+}
+
+#header .conteudoheader .textoheader a:hover {
+    background-color: #51a76c;
+}
+
+#header .imagem {
+    align-self: center;
+}
+
+#header .imagem img {
+    max-width: 400px;
+    margin-top: 50px;
+}
+
+#header .seta {
+    width: 50px;
+    margin-top: 20px;
+    margin-left: 45%;
+}
+
+#header .seta img {
+    transform: rotate(90deg);
+    width: 50px;
+    height: 50px; 
+    border-radius: 50%; 
+    border: 2px solid #5EC57E; 
+    overflow: hidden;
+    padding: 10px;
+}
+
+.sobrenos {
+    display: flex;
+    flex-flow: row wrap;
+    font-family: 'Open Sauce One' Arial, Helvetica, sans-serif;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.sobrenos .imagemsobrenos {
+    align-self: center;
+    width: 400px;
+}
+
+.sobrenos .textosobrenos {
+    align-self: center;
+    margin-top: 50px;
+}
+
+.sobrenos .textosobrenos p.titulosobrenos {
+    font-family: 'Open Sauce One';
+    font-weight: normal;
+    font-size: 2.7em;
+    width: 310px;
+    color: #5EC57E;
+}
+
+.sobrenos .textosobrenos p {
+    color: rgb(52,117,113);
+    font-size: 1.2em;
+    line-height: 1.8em;
+}
+
+.servicos {
+    display: flex;
+    flex-flow: column wrap;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.servicos .tituloservicos {
+    font-family: 'Open Sauce One';
+    font-weight: normal;
+    font-size: 2.7em;
+    width: 360px;
+    color: #5EC57E;
+    align-self: center;
+    margin-bottom: 50px;
+}
+
+.sobreservicos {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.sobreservicos img {
+    width: 100px;
+    height: 200px;
+    display: block;
+    margin: auto;
+}
+
+.sobreservicos .gestao img {
+    width: 160px;
+}
+
+.sobreservicos .seta {
+    width: 50px;
+    display: block;
+    margin: auto;
+}
+
+.sobreservicos h1 {
+    font-family: 'Open Sauce One';
+    font-weight: normal;
+    font-size: 1.5em;
+    width: 370px;
+    color: #5EC57E;
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.sobreservicos p {
+    color: rgb(52,117,113);
+    font-size: 1.12em;
+    line-height: 1.1em;
+    text-align: center;
+}
+
+.sobreservicos .seta img {
+    transform: rotate(90deg);
+    width: 50px;
+    height: 50px; 
+    border-radius: 50%; 
+    border: 2px solid #5EC57E; 
+    overflow: hidden;
+    padding: 10px;
+}
+
+.pacoteinicial {
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: rgb(247,253,243);
+    flex: auto;
+    height: 370px;
+
+}
+
+.gestao {
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: rgb(236,248,229);
+    flex: auto;
+    height: 370px;
+}
+
+.preparacao {
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: rgb(220,244,206);
+    flex: auto;
+    height: 370px;
+}
+
+.depoimentos {
+    display: flex;
+    flex-flow: column nowrap;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.depoimentos .titulodepoimentos {
+    font-family: 'Open Sauce One';
+    font-weight: normal;
+    font-size: 2.7em;
+    width: 310px;
+    color: #5EC57E;
+    align-self: center;
+}
+
+.depoimentos .pessoas {
+    align-self: center;
+    margin-top: 25px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+.depoimentos .cidadao {
+    font-family: 'Open Sauce One';
+    font-weight: bold;
+    font-size: 1.4em;
+    color: #5EC57E;
+    margin-bottom: 10px;
+}
+
+.depoimentos .fala {
+    color: rgb(52,117,113);
+    font-size: 1.3em;
+    max-width: 770px;
+    margin-bottom: 10px;
+    line-height: 1.1em;
+    text-align: justify;
+}
+
+.motivacao {
+    display: flex;
+    flex-flow: column nowrap;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.motivacao .frase {
+    font-family: 'Open Sauce One' Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 3.6em;
+    color: rgb(52,117,113);
+    margin-bottom: 40px;
+    text-align: center;
+    max-width: 900px;
+    display: block;
+    margin: auto;
+}
+
+.motivacao .imagemmotivacao img {
+    width: 220px;
+    display: block;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.motivacao .autor {
+    font-family: 'Open Sauce One';
+    font-weight: bold;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    color: #5EC57E;
+    display: block;
+    margin: auto;
+}
+
+.contato {
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    background-color: #ECF8E5;
+}
+
+.contato .frase-contato {
+    font-family: 'Open Sauce One';
+    font-weight: normal;
+    font-size: 2.7em;
+    color: #5EC57E;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contato small {
+    color: rgb(52,117,113);
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    text-align: center;
+    display: block;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.contato .informacao {
+    font-family: 'Open Sauce One';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1.5em;
+    color: #5EC57E;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+footer {
+    background-color: black;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer a.canva {
+    border-radius: 1000px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, #00C4CC 0%, #7D2AE8 100%);
+    padding: 5px;
+}
+
+footer a.canva:hover {
+    filter: brightness(0.91);
+}
+
+::-webkit-scrollbar {
+    width: 9px;
+  }
+  
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgba(128, 128, 128, 0.575);
+}
+
+::-webkit-scrollbar-thumb {
+    background: #5EC57E; 
+    border-radius: 10px;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: #5EC57E; 
+}
